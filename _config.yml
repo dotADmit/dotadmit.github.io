@@ -1,0 +1,19 @@
+﻿menu:
+  - url: /index.html
+    name: главная
+  - url: /blog/
+    name: информация
+  - url: /contacts/
+    name: карта
+
+exclude:
+  - package.json
+  - gulpfile.js
+  - node_modules
+  - scss
+
+#collections:
+#  posts:
+#    output: true
+#    permalink:/blog/:title
+
