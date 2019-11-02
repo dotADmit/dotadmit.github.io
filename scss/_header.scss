@@ -1,0 +1,90 @@
+header {
+  display: flex;
+  align-items: baseline;
+  align-content: space-between;
+  flex-wrap: wrap;
+  //min-height: 360px;
+  justify-content: space-around;
+  background: url("/assets/images/header-bg.jpg")no-repeat 50% 30%/cover;
+  padding: 30px;
+
+  nav ul li{
+    display: inline-block;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    margin-right: 15px;
+
+    &.active{
+      border-bottom: 2px solid $white;
+    }
+
+
+    a {
+      color: $white;
+      text-decoration: none;
+
+      &:hover{
+        border-bottom: 2px solid $white;
+        color: rgba($white, .8);
+
+      }
+    }
+  }
+  .hero{
+    width: 100%;
+    //font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: end;
+
+
+
+    margin-left: 40px;
+    margin-bottom: 10px;
+
+    .avatar {
+      background: url("/assets/images/avatar.jpg")no-repeat center/cover;
+      height: 165px;
+      width: 165px;
+      border-radius: 50%;
+      border: 2px solid $beige;
+      box-shadow: 0 0 15px rgba($beige, .6);
+
+    }
+    .avatar1 {
+      background: url("/assets/images/avatar2.jpg")no-repeat center/cover;
+      height: 165px;
+      width: 165px;
+      border-radius: 50%;
+      border: 2px solid $beige;
+      box-shadow: 0 0 15px rgba($beige, .6);
+      margin-right: 20px;
+
+    }
+    .phrase {
+      text-shadow: 1px 1px 8px rgba($brown, .9);
+      //max-width: 130px;
+
+
+
+      .quote{
+        font-family: "Monotype Corsiva", serif;
+        font-size: 39px;
+        margin-bottom: 0;
+        float: right;
+      }
+
+      .author{
+        font-family: "Monotype Corsiva", serif;
+        font-size: 20px;
+        font-weight: 400;
+
+      }
+    }
+  }
+  .logo{
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 5px;
+  }
+}
