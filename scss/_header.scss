@@ -36,11 +36,10 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    justify-content: end;
-
-
-
-    margin-left: 40px;
+    @media screen and (min-width: 525px){
+      margin-right: 400px;
+    }
+    justify-content: center;
     margin-bottom: 10px;
 
     .avatar {
