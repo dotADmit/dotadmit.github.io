@@ -1,5 +1,5 @@
 ﻿menu:
-  - url: /index.html
+  - url: /
     name: главная
   - url: /blog/
     name: информация
